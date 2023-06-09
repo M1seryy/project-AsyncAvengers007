@@ -10,6 +10,5 @@ import './js/pages/header';
 import './js/pages/hero';
 import './js/pages/footer';
 
-/* PAGE-HOME */
-import './js/pages/home/monthly_trends';
-import './js/pages/home/weekly_trends';
+/* PAGE-LIBRARY */
+import './js/pages/library/library';
