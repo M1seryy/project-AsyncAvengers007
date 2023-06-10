@@ -9,7 +9,7 @@ const getResponce = () => {
     );
     return res.then(res => createMarkup(res.data.results.slice(0, 1)));
   } catch (error) {
-    console.log(error);
+    console.log('error' + error);
   }
 };
 console.log(getResponce());
